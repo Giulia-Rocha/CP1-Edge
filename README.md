@@ -1,6 +1,6 @@
-# Projeto Vinheria
+# Projeto Vinheria :wine_glass:
 
-## Descrição 
+## Descrição :memo:
 Este Projeto consiste em um sistema de monitoramento de luminosidade do ambiente utilizando um Arduino Uno R3, um LDR, LEDs de diferentes cores (Amarelo, Vermelho e Verde) e ainda uma Buzina.
 
 O objetivo é identificar a luminosidade do ambiente e alertar quando ultrapassa os limites estabelecidos.
@@ -15,7 +15,8 @@ Essa escala é então utilizada para acionar os diferentes LEDs e a buzina.
 - Se a luminosidade estiver maior quue 60%, acionará o LED vermelho e a buzina, o que indica algum problema urgente em relação a luminosidade no local em que os vinhos são armazenados e é necessário corrigi-lo o mais rápido possível. 
 
 
-## Dependências
+
+## Dependências :briefcase:
 ### Materiais necessários
 
 | Quantidade| Componente | 
