@@ -51,7 +51,7 @@ Essa escala é então utilizada para acionar os diferentes LEDs e a buzina.
 2. Codificação do Arduino:
 
 - Abra o Arduino IDE ou utilize a plataforma online Tinkercad para escrever o código.
-- Copie o código fornecido e cole no editor de código do Arduino.
+- Copie o [código fornecido](Codigo_Fonte.cpp) e cole no editor de código do Arduino.
 - Verifique se os pinos definidos no código correspondem aos pinos físicos onde os componentes estão conectados.
 
 
