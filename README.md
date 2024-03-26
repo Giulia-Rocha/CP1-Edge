@@ -17,7 +17,7 @@ Essa escala é então utilizada para acionar os diferentes LEDs e a buzina.
 
 
 ## Dependências :briefcase:
-### Materiais necessários
+### Materiais necessários 
 
 | Quantidade| Componente | 
 |---------- |----------|
@@ -33,23 +33,26 @@ Essa escala é então utilizada para acionar os diferentes LEDs e a buzina.
 |1     |Protoboard|
 
 
-## Como Reproduzi-lo?
+### Como Reproduzi-lo?
 
 - Depois de reunir todos os materiais necessários siga este roteiro abaixo:
   
-1. Montagem do Circuito:
+**1. Montagem do Circuito:**
 
 - Conecte o Arduino Uno à protoboard.
 - Conecte o LDR a um dos pinos analógicos do Arduino (por exemplo, A0).
 - Conecte os LEDs aos pinos digitais do Arduino (por exemplo, 2, 3 e 4) através de resistores limitadores de corrente.
 - Conecte o buzzer a um pino digital do Arduino (por exemplo, 5).
 - A seguir, uma imagem para auxiliar na montagem:
+  <details>
+    <summary>Imagem do circuito:</summary>
+    <img src="https://github.com/Giulia-Rocha/CP1-Edge/blob/main/Checkpoint-1.png"  width="1500"/>
+  </details>
 
-<img src="https://github.com/Giulia-Rocha/CP1-Edge/blob/main/Checkpoint-1.png"  width="1500"/>
 
 
 
-2. Codificação do Arduino:
+**2. Codificação do Arduino:**
 
 - Abra o Arduino IDE ou utilize a plataforma online Tinkercad para escrever o código.
 - Copie o [código fornecido](Codigo_Fonte.cpp) e cole no editor de código do Arduino.
@@ -57,7 +60,7 @@ Essa escala é então utilizada para acionar os diferentes LEDs e a buzina.
 
 
 
-3. Teste do Circuito:
+**3. Teste do Circuito:**
 
 - Carregue o código para o Arduino.
 - Conecte o Arduino ao computador e alimente o circuito.
@@ -66,7 +69,7 @@ Essa escala é então utilizada para acionar os diferentes LEDs e a buzina.
 
 
 
-4. Calibração:
+**4. Calibração:**
 
 - Calibre o LDR para sua aplicação específica ajustando os valores de temperatura no código com base nas leituras do sensor em diferentes condições de luz e temperatura.
 
