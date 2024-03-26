@@ -33,4 +33,5 @@ void loop() {
     digitalWrite(yellowPin, LOW);   // Desliga o LED amarelo
     tone(buzzerPin, 1000);    // Liga o buzzer com frequência de 1000 Hz
   }
+  delay(250)
 }
