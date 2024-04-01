@@ -13,21 +13,21 @@ void setup() {
 
 void loop() {
   int LDR = analogRead(A0);    // Lê o valor do sensor de luminosidade (LDR) conectado ao pino analógico A0
-  int luz = map(LDR, 0, 1023, 0, 100);  // Mapeia o valor lido do LDR para uma faixa de 0 a 100
+  int luz = map(LDR, 49, 969, 0, 100);  // Mapeia o valor lido do LDR para uma faixa de 0 a 100
   
   Serial.println(luz);    // Imprime o valor da luz no monitor serial
   
-  if (luz <= 40) {    // Se a luz for igual ou inferior a 40
+  if (luz <= 40) {    // Se a luz for igual ou inferior a 40%
     digitalWrite(greenPin, HIGH);   // Acende o LED verde
     digitalWrite(redPin, LOW);      // Desliga o LED vermelho
     digitalWrite(yellowPin, LOW);   // Desliga o LED amarelo
     noTone(buzzerPin);    // Desliga o buzzer (se estiver tocando)
-  } else if (luz > 40 && luz <= 89) {    // Se a luz estiver entre 40 e 89
+  } else if (luz > 40 && luz <= 75) {    // Se a luz estiver entre 40 e 75%
     digitalWrite(greenPin, LOW);    // Desliga o LED verde
     digitalWrite(redPin, LOW);      // Desliga o LED vermelho
     digitalWrite(yellowPin, HIGH);  // Acende o LED amarelo
     noTone(buzzerPin);    // Desliga o buzzer (se estiver tocando)
-  } else {    // Se a luz for maior que 89
+  } else {    // Se a luz for maior que 75
     digitalWrite(greenPin, LOW);    // Desliga o LED verde
     digitalWrite(redPin, HIGH);     // Acende o LED vermelho
     digitalWrite(yellowPin, LOW);   // Desliga o LED amarelo
