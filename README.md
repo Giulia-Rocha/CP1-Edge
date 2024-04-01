@@ -8,11 +8,11 @@ O objetivo é identificar a luminosidade do ambiente e alertar quando ultrapassa
 O Arduino lê a intensidade da luz através do LDR e converte o valor lido proporcionalmente a uma escala definida.
 Essa escala é então utilizada para acionar os diferentes LEDs e a buzina.
 
-- Se a luminosidade for menor que 30%, acionará o LED verde, o que indica que a luminosidade está boa para os vinhos;
+- Se a luminosidade for menor que 40%, acionará o LED verde, o que indica que a luminosidade está boa para os vinhos;
 
-- Se a luminosidade estiver entre 31% e 60%, acionará o LED amarelo, o que indica que a luminosidade está em níveis de alerta;
+- Se a luminosidade estiver entre 41% e 75%, acionará o LED amarelo, o que indica que a luminosidade está em níveis de alerta;
 
-- Se a luminosidade estiver maior quue 60%, acionará o LED vermelho e a buzina, o que indica algum problema urgente em relação a luminosidade no local em que os vinhos são armazenados e é necessário corrigi-lo o mais rápido possível. 
+- Se a luminosidade estiver maior quue 75%, acionará o LED vermelho e a buzina, o que indica algum problema urgente em relação a luminosidade no local em que os vinhos são armazenados e é necessário corrigi-lo o mais rápido possível. 
 
 
 
