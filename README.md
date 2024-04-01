@@ -74,6 +74,10 @@ Essa escala é então utilizada para acionar os diferentes LEDs e a buzina.
 - Calibre o LDR para sua aplicação específica ajustando os valores de temperatura no código com base nas leituras do sensor em diferentes condições de luz e temperatura.
 
 
+  ## Links Úteis
+  [Vídeo Explicativo no Youtube](https://youtu.be/d0wH98ZFdh4)
+
+
 
 
 
